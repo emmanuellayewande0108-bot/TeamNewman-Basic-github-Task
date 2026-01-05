@@ -1,0 +1,7 @@
+Hello! I’m Emmanuella, a graduate and aspiring Software Tester (QA) with a strong interest in software quality and user experience.
+I’m currently building my foundation in:
+Manual Software Testing
+Test case and test scenario creation
+Bug identification and reporting
+Git & GitHub for version control and collaboration
+This repository is part of my learning journey, where I practice, document my progress, and improve my testing skills through hands-on work.
