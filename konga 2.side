@@ -1,0 +1,1407 @@
+{
+  "id": "7b00ec1f-b9be-499a-92aa-2408618bcc67",
+  "version": "2.0",
+  "name": "konga",
+  "url": "https:\\\\www.konga.com\\",
+  "tests": [{
+    "id": "5a00e4d9-60a6-4d3c-82d4-f364eda1e963",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "2ef18fd3-6af7-4162-bd7b-6d3491d30c62",
+    "name": "WrongUsername\\password",
+    "commands": [{
+      "id": "1f7d1056-01a0-48ce-bcdb-3a2fc4560760",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.konga.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "867e3efb-816f-4b54-98eb-c182f2daacad",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1696x1026",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c46f2458-5f8e-4050-bcd6-7742bcb52686",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login / Signup",
+      "targets": [
+        ["linkText=Login / Signup", "linkText"],
+        ["css=.DesktopNavigation_authLink__Zpjyj > .DesktopNavigation_searchBandIconLink__Nreez", "css:finder"],
+        ["xpath=//a[contains(text(),'Login / Signup')]", "xpath:link"],
+        ["xpath=//div[@id='nav-bar-fix']/div/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/login?return_url=/')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login / Signup')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce005094-c99f-4093-b5dd-4ddecf28d6b4",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//section[@id='app-content-wrapper']/div[4]/section/section/div/aside/div[2]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//aside/div[2]/div/form/div/input", "xpath:position"]
+      ],
+      "value": "emmanuellayewande0100@gmail.com"
+    }, {
+      "id": "174c5005-3203-474f-83d4-a925546c4fcc",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//section[@id='app-content-wrapper']/div[4]/section/section/div/aside/div[2]/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8124e76-d2ff-49b5-84c7-a503282178a8",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//section[@id='app-content-wrapper']/div[4]/section/section/div/aside/div[2]/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Oyeyinka@1234"
+    }, {
+      "id": "9e514286-3a4c-46bb-8eb9-8176f57384ea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.loginForm_loginButton__aq55S",
+      "targets": [
+        ["css=.loginForm_loginButton__aq55S", "css:finder"],
+        ["xpath=(//button[@type='submit'])[4]", "xpath:attributes"],
+        ["xpath=//section[@id='app-content-wrapper']/div[4]/section/section/div/aside/div[2]/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "67fcca77-989a-4223-a39b-7875e6935ee6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.loginForm_loginButton__aq55S",
+      "targets": [
+        ["css=.loginForm_loginButton__aq55S", "css:finder"],
+        ["xpath=(//button[@type='submit'])[4]", "xpath:attributes"],
+        ["xpath=//section[@id='app-content-wrapper']/div[4]/section/section/div/aside/div[2]/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eaf8057c-79dd-4899-8ac7-c8c7307c5e86",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.loginForm_loginButton__aq55S",
+      "targets": [
+        ["css=.loginForm_loginButton__aq55S", "css:finder"],
+        ["xpath=(//button[@type='submit'])[4]", "xpath:attributes"],
+        ["xpath=//section[@id='app-content-wrapper']/div[4]/section/section/div/aside/div[2]/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "078c09f7-d2ce-46d1-9f75-19e3a500d09f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.loginSidebar_loginSidebarWrapper__tOFFi",
+      "targets": [
+        ["css=.loginSidebar_loginSidebarWrapper__tOFFi", "css:finder"],
+        ["xpath=//section[@id='app-content-wrapper']/div[4]/section/section/div/aside/div[2]/div", "xpath:idRelative"],
+        ["xpath=//aside/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6464e41-627e-46d0-afc5-9fbe9e795a59",
+      "comment": "",
+      "command": "click",
+      "target": "css=.loginSidebar_loginSidebarWrapper__tOFFi",
+      "targets": [
+        ["css=.loginSidebar_loginSidebarWrapper__tOFFi", "css:finder"],
+        ["xpath=//section[@id='app-content-wrapper']/div[4]/section/section/div/aside/div[2]/div", "xpath:idRelative"],
+        ["xpath=//aside/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb1d8188-febb-4458-9bd9-dd83118ec907",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//section[@id='app-content-wrapper']/div[4]/section/section/div/aside/div[2]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//aside/div[2]/div/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1e4338f-8044-4d39-a97c-f74319432228",
+      "comment": "",
+      "command": "click",
+      "target": "css=.loginForm_inputGroup__0igD3:nth-child(3) > label",
+      "targets": [
+        ["css=.loginForm_inputGroup__0igD3:nth-child(3) > label", "css:finder"],
+        ["xpath=//section[@id='app-content-wrapper']/div[4]/section/section/div/aside/div[2]/div/form/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div[2]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66f2e977-9b6e-40c7-b441-fc9c0f3ab0a0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.loginSidebar_loginSidebarWrapper__tOFFi",
+      "targets": [
+        ["css=.loginSidebar_loginSidebarWrapper__tOFFi", "css:finder"],
+        ["xpath=//section[@id='app-content-wrapper']/div[4]/section/section/div/aside/div[2]/div", "xpath:idRelative"],
+        ["xpath=//aside/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb152974-fd78-43e7-a7e8-65b796ffbd27",
+      "comment": "",
+      "command": "//verifyText",
+      "target": "css=body",
+      "targets": [],
+      "value": "Store Locator\\nSell on Konga\\nHelp\\nLogin / Signup\\nMy Cart\\n0\\nAll Categories\\nComputers and Accessories\\nPhones and Tablets\\nElectronics\\nKonga Fashion\\nHome and Kitchen\\nBaby, Kids and Toys\\nBeauty, Health & Personal Care\\nClose\\nEmail Address or Phone Number\\nThe username or password you have entered is incorrect. Please try again.\\nPassword\\nForgot Password?\\nShow\\nLogin\\nOR\\nLogin with Google\\nLogin with Apple\\nDon’t have an account? Sign Up\\nToday's Deals\\nSee All Items\\nNike Nigeria Latest 2024 Designe...\\n₦15,000\\n32\" Led Hd Tv - 2hdmi - 2usb - 1...\\n₦109,080\\nHP Laptop 15-fd0569nia, 15.6\", I...\\n₦497,700\\n₦629,999\\n- 21%\\nYou save ₦132,299\\nNigeria 1994 Retro Away Jersey\\n₦24,000\\nNike Nigeria Designer Football J...\\n₦15,000\\nNike Nigeria Super Falcons 2025/...\\n₦15,000\\nSponsored Products\\nCheslo Cuddle Luxe Grey L-s...\\n₦599,999\\n₦760,000\\n- 21%\\nYou save ₦160,001\\nRechargeable Electric Sciss...\\n₦43,999\\nWired Headset - H540\\n₦63,000\\nCuddle Luxe Grey L-shape\\n₦650,000\\n₦800,000\\n- 19%\\nYou save ₦150,000\\nAtmel Avr 8051 Usb Isp Prog...\\n₦15,500\\nSame Day Delivery (KongaNow)\\nSee All Items\\nT & C Apply\\nStarlink Standard Kit (Gen ...\\n₦590,000\\n₦700,000\\n- 16%\\nYou save ₦110,000\\n(38 Reviews)\\nHuawei Access point AP361\\n₦61,336\\n(3 Reviews)\\nStarlink Gen 3 + Huawei Acc...\\n₦651,336\\nStarlink Standard Actuated ...\\n₦110,000\\n₦129,100\\n- 15%\\nYou save ₦19,100\\n(8 Reviews)\\nNexus Nx-sf4400b Nexus 16\" ...\\n₦29,421\\n₦35,000\\n- 16%\\nYou save ₦5,579\\n(10 Reviews)\\nNexus 100 Litres Chest Free...\\n₦231,973\\n₦270,000\\n- 14%\\nYou save ₦38,027\\n(1 Review)\\nTecno Pop 10 - KM4 -6.67\" -...\\n₦132,978\\nNexus 18\" Standing Fan |NX-...\\n₦33,947\\n₦40,000\\n- 15%\\nYou save ₦6,053\\n(61 Reviews)\\nComputing\\nPhones & Tablets\\nTV & Audio Systems\\nHome & Kitchen\\nGroceries\\nOffice Furniture & Equipments\\nBeauty Hub\\nGaming\\nFootwear Deals\\nGenerators & Inverters\\nFashion\\nBaby, Kids & Toys\\nOfficial Store\\nRecommended for you\\nSee All Items\\nSony Playstation 5 Console.\\n₦780,000\\n₦900,000\\n- 13%\\nYou save ₦120,000\\nHithium 1kwh Solar Generator - L...\\n₦265,000\\n₦280,000\\n- 5%\\nYou save ₦15,000\\n2 Reviews\\nAsus ROG Ally 7\" 120Hz FHD 1080p...\\n₦1,150,000\\nApple iTunes $100 USD Gift Card\\n₦187,050\\nGreen Lion Mini Projector Portab...\\n₦229,000\\n₦230,000\\nYou save ₦1,000\\nGarnier Skin Active Even & Matte...\\n₦10,064\\n₦12,580\\n- 20%\\nYou save ₦2,516\\n1 Review\\nHOME FURNISHINGS\\nGet Up To 70% Off\\nSHOP NOW\\nFITNESS TOOLS & EQUIPMENT\\nGet Fitness Equipment At Amazing Discounts!\\nSHOP NOW\\nKIDS WEARS & ACCESSORIES\\nGet All Kiddies Products At Huge Discounts!\\nSHOP NOW\\nTOP DEALS ON TELEVISIONS\\nGet the TV You Want With Bargain Deals!\\nSHOP NOW\\nKonga — Nigeria’s Trusted Platform for Smart Shopping\\nWelcome to Konga, Nigeria’s leading online shopping destination where convenience meets trust. From electronics and mobile phones to home appliances, groceries, fashion, and lifestyle essentials, Konga offers millions of Nigerians a smarter way to shop, save, and enjoy fast nationwide delivery. Our mission is simple: to make shopping easier, faster, and more rewarding. Whether you’re restocking your kitchen, upgrading your gadgets, or exploring fashion trends, Konga guarantees genuine products, unbeatable prices, and reliable after-sales support. Powered by KongaPay, our secure payment solution, shoppers enjoy seamless checkout, instant cashback, and discounts on bill payments, airtime, data, electricity, and cable TV subscriptions. We also bring you seasonal campaigns like Konga Yakata (Black Friday), Freedom Sale, and Back-to-School Promos, giving you the chance to save big on trusted brands like LG, HP, Zinox, Apple, La Roche-Posay, Starlink, Samsung, Tecno, Xiaomi, TGi, ZTE, Garnier, Infinix, Huawei, EcoFlow, Haier Thermocool, Unilever, iTec, and Nivea. At Konga, we don’t just sell — we deliver smiles, speed, and satisfaction to every doorstep. With KongaNow same-day delivery and nationwide logistics coverage, your orders are safe, fast, and always right on time. Enjoy exclusive in-app deals when you shop via the Konga App. Download the app on Playstore or Appstore today and experience shopping made simple, secure, and smart.\\nAllow Us Serve You Better\\nWe collect and store information on your device when you use this website including setting cookies. Some are essential, while others are used to enhance your experience, and to operate and improve the website. You can withdraw your consent at any time for non-strictly necessary cookies. Please choose the accept all button if you consent for us to use these non-strictly necessary cookies and the personal information they collect for the purposes described in our\\nCookie Notice\\nI Accept\\nOnly Necessary\\nEMAIL SUPPORT\\nhelp@konga.com\\nPHONE SUPPORT\\n07080635700, 02018883435\\nWHATSAPP\\n0907 0038 400, 0809 460 5555\\nGET LATEST DEALS\\nOur best promotions sent to your inbox.\\nSubscribe\\nABOUT KONGA\\nContact Us\\nAbout Us\\nCareers\\nOur Blog\\nForum\\nTerms & Conditions\\nPAYMENT\\nKongaPay\\nWallet\\nVerve\\nMastercard\\nVisa\\nBUYING ON KONGA\\nBuyer Safety Centre\\nFAQs\\nDelivery\\nKonga Return Policy\\nBulk Purchase\\nMORE INFO\\nSite Map\\nTrack My Order\\nPrivacy Policy\\nAuthentic Items Policy\\nMAKE MONEY ON KONGA\\nBecome a Konga Affiliate\\nDownload on\\nApp Store\\nDownload on\\nGoogle Play\\nCONNECT WITH US\\nCopyright © 2026 Konga.com. All rights reserved\\nHi there! Thanks for stopping by. How can I help you today?"
+    }, {
+      "id": "8c0247a6-d354-490c-86f5-acb569f5ac21",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sidebar_sidebarHeaderClose__BdCuZ > span",
+      "targets": [
+        ["css=.sidebar_sidebarHeaderClose__BdCuZ > span", "css:finder"],
+        ["xpath=//section[@id='app-content-wrapper']/div[4]/section/section/div/aside/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//aside/div/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Close')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dfb0e955-097b-4089-a1c6-e11ebe2240bd",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "6024c950-a555-4ad9-8c8c-a3b0324e700a",
+    "name": "Password_less_than_character",
+    "commands": [{
+      "id": "df0c4598-567b-426d-a7c4-7833430ac34f",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.konga.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "223d05b9-cbde-46eb-9763-2f68e939d678",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1696x1026",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e492ef3-b51e-4378-a54b-3fbbb456231d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login / Signup",
+      "targets": [
+        ["linkText=Login / Signup", "linkText"],
+        ["css=.DesktopNavigation_authLink__Zpjyj > .DesktopNavigation_searchBandIconLink__Nreez", "css:finder"],
+        ["xpath=//a[contains(text(),'Login / Signup')]", "xpath:link"],
+        ["xpath=//div[@id='nav-bar-fix']/div/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/login?return_url=/')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login / Signup')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "63e81b58-217a-479b-bf80-32a5734585c7",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//section[@id='app-content-wrapper']/div[4]/section/section/div/aside/div[2]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//aside/div[2]/div/form/div/input", "xpath:position"]
+      ],
+      "value": "emmanuellayewande0108@gmail.com"
+    }, {
+      "id": "8471a013-e3d6-4f16-8133-9d015e921ce2",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//section[@id='app-content-wrapper']/div[4]/section/section/div/aside/div[2]/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7b6159b-a9f4-40eb-8615-d60cefae0981",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//section[@id='app-content-wrapper']/div[4]/section/section/div/aside/div[2]/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Oyey"
+    }, {
+      "id": "71b199e4-6824-4e98-8b0b-8dd067e67e72",
+      "comment": "",
+      "command": "click",
+      "target": "css=.loginForm_loginButton__aq55S",
+      "targets": [
+        ["css=.loginForm_loginButton__aq55S", "css:finder"],
+        ["xpath=(//button[@type='submit'])[4]", "xpath:attributes"],
+        ["xpath=//section[@id='app-content-wrapper']/div[4]/section/section/div/aside/div[2]/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "246bf017-5313-49f3-a503-73a382805841",
+      "comment": "",
+      "command": "click",
+      "target": "css=.loginSidebar_loginSidebarWrapper__tOFFi",
+      "targets": [
+        ["css=.loginSidebar_loginSidebarWrapper__tOFFi", "css:finder"],
+        ["xpath=//section[@id='app-content-wrapper']/div[4]/section/section/div/aside/div[2]/div", "xpath:idRelative"],
+        ["xpath=//aside/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a68e136-75ec-4b53-9831-8132b79b649a",
+      "comment": "",
+      "command": "//verifyText",
+      "target": "css=body",
+      "targets": [],
+      "value": "Store Locator\\nSell on Konga\\nHelp\\nLogin / Signup\\nMy Cart\\n0\\nAll Categories\\nComputers and Accessories\\nPhones and Tablets\\nElectronics\\nKonga Fashion\\nHome and Kitchen\\nBaby, Kids and Toys\\nBeauty, Health & Personal Care\\nClose\\nEmail Address or Phone Number\\nPassword\\nForgot Password?\\nShow\\nThe password must be at least 6 characters\\nLogin\\nOR\\nLogin with Google\\nLogin with Apple\\nDon’t have an account? Sign Up\\nToday's Deals\\nSee All Items\\nNike Nigeria Latest 2024 Designe...\\n₦15,000\\n32\" Led Hd Tv - 2hdmi - 2usb - 1...\\n₦109,080\\nHP Laptop 15-fd0569nia, 15.6\", I...\\n₦497,700\\n₦629,999\\n- 21%\\nYou save ₦132,299\\nNigeria 1994 Retro Away Jersey\\n₦24,000\\nNike Nigeria Designer Football J...\\n₦15,000\\nNike Nigeria Super Falcons 2025/...\\n₦15,000\\nSponsored Products\\nWired Headset - H540\\n₦63,000\\nCuddle Luxe Grey L-shape\\n₦650,000\\n₦800,000\\n- 19%\\nYou save ₦150,000\\nAtmel Avr 8051 Usb Isp Prog...\\n₦15,500\\nCheslo Cuddle Luxe Grey L-s...\\n₦599,999\\n₦760,000\\n- 21%\\nYou save ₦160,001\\nRechargeable Electric Sciss...\\n₦43,999\\nSame Day Delivery (KongaNow)\\nSee All Items\\nT & C Apply\\nStarlink Standard Kit (Gen ...\\n₦590,000\\n₦700,000\\n- 16%\\nYou save ₦110,000\\n(38 Reviews)\\nHuawei Access point AP361\\n₦61,336\\n(3 Reviews)\\nStarlink Gen 3 + Huawei Acc...\\n₦651,336\\nStarlink Standard Actuated ...\\n₦110,000\\n₦129,100\\n- 15%\\nYou save ₦19,100\\n(8 Reviews)\\nNexus Nx-sf4400b Nexus 16\" ...\\n₦29,421\\n₦35,000\\n- 16%\\nYou save ₦5,579\\n(10 Reviews)\\nNexus 100 Litres Chest Free...\\n₦231,973\\n₦270,000\\n- 14%\\nYou save ₦38,027\\n(1 Review)\\nTecno Pop 10 - KM4 -6.67\" -...\\n₦132,978\\nNexus 18\" Standing Fan |NX-...\\n₦33,947\\n₦40,000\\n- 15%\\nYou save ₦6,053\\n(61 Reviews)\\nComputing\\nPhones & Tablets\\nTV & Audio Systems\\nHome & Kitchen\\nGroceries\\nOffice Furniture & Equipments\\nBeauty Hub\\nGaming\\nFootwear Deals\\nGenerators & Inverters\\nFashion\\nBaby, Kids & Toys\\nOfficial Store\\nRecommended for you\\nSee All Items\\nSony Playstation 5 Console.\\n₦780,000\\n₦900,000\\n- 13%\\nYou save ₦120,000\\nHithium 1kwh Solar Generator - L...\\n₦265,000\\n₦280,000\\n- 5%\\nYou save ₦15,000\\n2 Reviews\\nAsus ROG Ally 7\" 120Hz FHD 1080p...\\n₦1,150,000\\nApple iTunes $100 USD Gift Card\\n₦187,050\\nGreen Lion Mini Projector Portab...\\n₦229,000\\n₦230,000\\nYou save ₦1,000\\nValentino Orlandi Black Patent L...\\n₦735,000\\n₦780,800\\n- 5%\\nYou save ₦45,800\\nInspired By Your Cart\\nQASA Rechargeable Fan 7'\\n₦24,500\\n₦25,000\\n- 2%\\nYou save ₦500\\nYour Browsing History\\nApple Magsafe 2 Power Adapt...\\n₦29,000\\nSuoyong Mppt 30a Solar Char...\\n₦64,950\\n₦75,000\\n- 13%\\nYou save ₦10,050\\nHOME FURNISHINGS\\nGet Up To 70% Off\\nSHOP NOW\\nFITNESS TOOLS & EQUIPMENT\\nGet Fitness Equipment At Amazing Discounts!\\nSHOP NOW\\nKIDS WEARS & ACCESSORIES\\nGet All Kiddies Products At Huge Discounts!\\nSHOP NOW\\nTOP DEALS ON TELEVISIONS\\nGet the TV You Want With Bargain Deals!\\nSHOP NOW\\nKonga — Nigeria’s Trusted Platform for Smart Shopping\\nWelcome to Konga, Nigeria’s leading online shopping destination where convenience meets trust. From electronics and mobile phones to home appliances, groceries, fashion, and lifestyle essentials, Konga offers millions of Nigerians a smarter way to shop, save, and enjoy fast nationwide delivery. Our mission is simple: to make shopping easier, faster, and more rewarding. Whether you’re restocking your kitchen, upgrading your gadgets, or exploring fashion trends, Konga guarantees genuine products, unbeatable prices, and reliable after-sales support. Powered by KongaPay, our secure payment solution, shoppers enjoy seamless checkout, instant cashback, and discounts on bill payments, airtime, data, electricity, and cable TV subscriptions. We also bring you seasonal campaigns like Konga Yakata (Black Friday), Freedom Sale, and Back-to-School Promos, giving you the chance to save big on trusted brands like LG, HP, Zinox, Apple, La Roche-Posay, Starlink, Samsung, Tecno, Xiaomi, TGi, ZTE, Garnier, Infinix, Huawei, EcoFlow, Haier Thermocool, Unilever, iTec, and Nivea. At Konga, we don’t just sell — we deliver smiles, speed, and satisfaction to every doorstep. With KongaNow same-day delivery and nationwide logistics coverage, your orders are safe, fast, and always right on time. Enjoy exclusive in-app deals when you shop via the Konga App. Download the app on Playstore or Appstore today and experience shopping made simple, secure, and smart.\\nAllow Us Serve You Better\\nWe collect and store information on your device when you use this website including setting cookies. Some are essential, while others are used to enhance your experience, and to operate and improve the website. You can withdraw your consent at any time for non-strictly necessary cookies. Please choose the accept all button if you consent for us to use these non-strictly necessary cookies and the personal information they collect for the purposes described in our\\nCookie Notice\\nI Accept\\nOnly Necessary\\nEMAIL SUPPORT\\nhelp@konga.com\\nPHONE SUPPORT\\n07080635700, 02018883435\\nWHATSAPP\\n0907 0038 400, 0809 460 5555\\nGET LATEST DEALS\\nOur best promotions sent to your inbox.\\nSubscribe\\nABOUT KONGA\\nContact Us\\nAbout Us\\nCareers\\nOur Blog\\nForum\\nTerms & Conditions\\nPAYMENT\\nKongaPay\\nWallet\\nVerve\\nMastercard\\nVisa\\nBUYING ON KONGA\\nBuyer Safety Centre\\nFAQs\\nDelivery\\nKonga Return Policy\\nBulk Purchase\\nMORE INFO\\nSite Map\\nTrack My Order\\nPrivacy Policy\\nAuthentic Items Policy\\nMAKE MONEY ON KONGA\\nBecome a Konga Affiliate\\nDownload on\\nApp Store\\nDownload on\\nGoogle Play\\nCONNECT WITH US\\nCopyright © 2026 Konga.com. All rights reserved\\nHi there! Thanks for stopping by. How can I help you today?"
+    }, {
+      "id": "b473978c-5ef7-4b65-aab0-e4ca05df5c2d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sidebar_sidebarHeaderClose__BdCuZ > span",
+      "targets": [
+        ["css=.sidebar_sidebarHeaderClose__BdCuZ > span", "css:finder"],
+        ["xpath=//section[@id='app-content-wrapper']/div[4]/section/section/div/aside/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//aside/div/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Close')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffdf23d3-772c-493b-bbab-2a9cf534024d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "4e86635e-79d2-440d-b8dc-6619db1463c4",
+    "name": "EmptyUsername",
+    "commands": [{
+      "id": "050d622c-6404-4890-a879-118269a65521",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.konga.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d7162567-74b6-4af2-b737-818b3130e05f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1696x1026",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0b5c03b8-a490-43bc-a436-eedc76586788",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login / Signup",
+      "targets": [
+        ["linkText=Login / Signup", "linkText"],
+        ["css=.DesktopNavigation_authLink__Zpjyj > .DesktopNavigation_searchBandIconLink__Nreez", "css:finder"],
+        ["xpath=//a[contains(text(),'Login / Signup')]", "xpath:link"],
+        ["xpath=//div[@id='nav-bar-fix']/div/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/login?return_url=/')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login / Signup')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3155a5f8-72f9-475a-930a-e0484d31ecad",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//section[@id='app-content-wrapper']/div[4]/section/section/div/aside/div[2]/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b86b2cc-692e-4d63-9461-5620ddaff3b4",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//section[@id='app-content-wrapper']/div[4]/section/section/div/aside/div[2]/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Oyeyinka@1234"
+    }, {
+      "id": "2c5dedc6-c596-4668-bc24-efa7d21ab748",
+      "comment": "",
+      "command": "click",
+      "target": "css=.loginForm_loginButton__aq55S",
+      "targets": [
+        ["css=.loginForm_loginButton__aq55S", "css:finder"],
+        ["xpath=(//button[@type='submit'])[4]", "xpath:attributes"],
+        ["xpath=//section[@id='app-content-wrapper']/div[4]/section/section/div/aside/div[2]/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b974949c-a70e-40e1-b9ac-53e45ab11981",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.loginForm_loginButton__aq55S",
+      "targets": [
+        ["css=.loginForm_loginButton__aq55S", "css:finder"],
+        ["xpath=(//button[@type='submit'])[4]", "xpath:attributes"],
+        ["xpath=//section[@id='app-content-wrapper']/div[4]/section/section/div/aside/div[2]/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "43a94c0e-3fa1-4a97-ac06-39101f805907",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sidebar_sidebarMain__GRXGL",
+      "targets": [
+        ["css=.sidebar_sidebarMain__GRXGL", "css:finder"],
+        ["xpath=//section[@id='app-content-wrapper']/div[4]/section/section/div/aside/div[2]", "xpath:idRelative"],
+        ["xpath=//aside/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7bd83cfd-b6e3-4565-9115-7570f5826674",
+      "comment": "",
+      "command": "click",
+      "target": "css=.loginForm_loginButton__aq55S",
+      "targets": [
+        ["css=.loginForm_loginButton__aq55S", "css:finder"],
+        ["xpath=(//button[@type='submit'])[4]", "xpath:attributes"],
+        ["xpath=//section[@id='app-content-wrapper']/div[4]/section/section/div/aside/div[2]/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb4385b6-6d78-43ea-bcfa-04fa98eccccf",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//section[@id='app-content-wrapper']/div[4]/section/section/div/aside/div[2]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//aside/div[2]/div/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c31b54a9-5fbf-4272-a8ae-c8f53c8eced3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.loginForm_loginButton__aq55S",
+      "targets": [
+        ["css=.loginForm_loginButton__aq55S", "css:finder"],
+        ["xpath=(//button[@type='submit'])[4]", "xpath:attributes"],
+        ["xpath=//section[@id='app-content-wrapper']/div[4]/section/section/div/aside/div[2]/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7389c815-cd00-4b9a-aa2a-d8ebc5e9fa23",
+      "comment": "",
+      "command": "click",
+      "target": "css=.loginForm_loginButton__aq55S",
+      "targets": [
+        ["css=.loginForm_loginButton__aq55S", "css:finder"],
+        ["xpath=(//button[@type='submit'])[4]", "xpath:attributes"],
+        ["xpath=//section[@id='app-content-wrapper']/div[4]/section/section/div/aside/div[2]/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e347b70-9acf-4342-96b9-7d63989d77b1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.loginForm_loginButton__aq55S",
+      "targets": [
+        ["css=.loginForm_loginButton__aq55S", "css:finder"],
+        ["xpath=(//button[@type='submit'])[4]", "xpath:attributes"],
+        ["xpath=//section[@id='app-content-wrapper']/div[4]/section/section/div/aside/div[2]/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fc3e0f2-a920-4e86-9919-a024d56902d8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Close",
+      "targets": [
+        ["linkText=Close", "linkText"],
+        ["css=.sidebar_sidebarHeaderClose__BdCuZ", "css:finder"],
+        ["xpath=//section[@id='app-content-wrapper']/div[4]/section/section/div/aside/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[79]", "xpath:href"],
+        ["xpath=//aside/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Close')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8373da1c-d1f3-4746-9d12-7e416d442e97",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "3d93b200-1713-40c7-8345-2f101e03ac3b",
+    "name": "Forgot_password",
+    "commands": [{
+      "id": "56376662-9f72-47fa-bd91-8ba2167b8c1f",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.konga.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "09490fa8-161b-4471-88c2-f6768f2d13fd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1696x1026",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "01485d44-79dc-4682-9224-de4d22d91e22",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login / Signup",
+      "targets": [
+        ["linkText=Login / Signup", "linkText"],
+        ["css=.DesktopNavigation_authLink__Zpjyj > .DesktopNavigation_searchBandIconLink__Nreez", "css:finder"],
+        ["xpath=//a[contains(text(),'Login / Signup')]", "xpath:link"],
+        ["xpath=//div[@id='nav-bar-fix']/div/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/login?return_url=/')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login / Signup')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "76884746-1c01-4f75-b7f3-2545b76f2b61",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//section[@id='app-content-wrapper']/div[4]/section/section/div/aside/div[2]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//aside/div[2]/div/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9b279e8-1eef-4e63-9de4-c00c29f961a2",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//section[@id='app-content-wrapper']/div[4]/section/section/div/aside/div[2]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//aside/div[2]/div/form/div/input", "xpath:position"]
+      ],
+      "value": "emmanuellayewande0108@gmail.com"
+    }, {
+      "id": "ef844e87-57f0-4ace-9ba1-7811456dedbb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Forgot Password?",
+      "targets": [
+        ["linkText=Forgot Password?", "linkText"],
+        ["css=.loginForm_forgotPassword__hok5v", "css:finder"],
+        ["xpath=//a[contains(text(),'Forgot Password?')]", "xpath:link"],
+        ["xpath=//section[@id='app-content-wrapper']/div[4]/section/section/div/aside/div[2]/div/form/div[2]/label/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/forgot-password')]", "xpath:href"],
+        ["xpath=//label/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Forgot Password?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f76fe4b5-cb3e-4337-8734-12ab5517db2f",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//main[@id='mainContent']/div/div/div[2]/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4eab06dc-81e2-464a-82d0-feff6be45f52",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//main[@id='mainContent']/div/div/div[2]/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "emmanuellayewande0108@gmail.com"
+    }, {
+      "id": "0a34add1-6462-4444-a964-e9aa1ac90d2e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button_button__cpnXl",
+      "targets": [
+        ["css=.button_button__cpnXl", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//main[@id='mainContent']/div/div/div[2]/div/div/form/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Send Reset Link')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d6ec3c1-bfc8-4211-9661-6f9f62711573",
+      "comment": "",
+      "command": "click",
+      "target": "css=.authPageLayout_authContent__S0ruV",
+      "targets": [
+        ["css=.authPageLayout_authContent__S0ruV", "css:finder"],
+        ["xpath=//main[@id='mainContent']/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//main/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ee75437-a67d-4428-81a6-f78690d316f4",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": "Skip to main content\\nPassword Link Sent\\nWe’ve sent a reset password email to\\nemmanuellayewande0108@gmail.com\\nTo create your new password,\\nclick the link in the email and enter a new password.\\nDidn’t receive the email?\\nCheck your junk mail, spam folder or\\nClick here to send another link.\\nI remember my password\\nLogin\\nForgot Password | Konga Online Shopping\\nHi there! Thanks for stopping by. How can I help you today?"
+    }, {
+      "id": "5d600e53-9634-4e95-8e16-2df93f5910b4",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "76d2ba09-960a-4ff4-be56-e85dcbef0118",
+    "name": "Password_visibility",
+    "commands": [{
+      "id": "11015406-2a34-46bf-84b6-a9d4b9cb1c77",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.konga.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0d67688c-a67c-4ff9-8066-81914294e346",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1696x1026",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "786b8faf-8f86-4a12-bc77-62091c25c949",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login / Signup",
+      "targets": [
+        ["linkText=Login / Signup", "linkText"],
+        ["css=.DesktopNavigation_authLink__Zpjyj > .DesktopNavigation_searchBandIconLink__Nreez", "css:finder"],
+        ["xpath=//a[contains(text(),'Login / Signup')]", "xpath:link"],
+        ["xpath=//div[@id='nav-bar-fix']/div/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/login?return_url=/')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login / Signup')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "360f238a-3467-4ab6-a683-c3bab389b090",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//section[@id='app-content-wrapper']/div[4]/section/section/div/aside/div[2]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//aside/div[2]/div/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "64a803e3-4365-448a-bfce-58f946cf9a01",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//section[@id='app-content-wrapper']/div[4]/section/section/div/aside/div[2]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//aside/div[2]/div/form/div/input", "xpath:position"]
+      ],
+      "value": "emmanuellayewande0108@gmail.com"
+    }, {
+      "id": "8c8c5424-1be8-44e1-bd51-95d6e8e62268",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//section[@id='app-content-wrapper']/div[4]/section/section/div/aside/div[2]/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc10f574-dca4-49ec-9ada-a5a5014eac5f",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//section[@id='app-content-wrapper']/div[4]/section/section/div/aside/div[2]/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Oyeyinka@1234"
+    }, {
+      "id": "c1414741-041c-4661-a165-82448f967aa2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Show",
+      "targets": [
+        ["linkText=Show", "linkText"],
+        ["css=.loginForm_showPassword__zWbYI", "css:finder"],
+        ["xpath=//a[contains(text(),'Show')]", "xpath:link"],
+        ["xpath=//a[@type='button']", "xpath:attributes"],
+        ["xpath=//section[@id='app-content-wrapper']/div[4]/section/section/div/aside/div[2]/div/form/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/login?showPassword=true')]", "xpath:href"],
+        ["xpath=//form/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Show')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1fed1952-7609-44fb-8048-fdc3011148c9",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Hide",
+      "targets": [
+        ["linkText=Hide", "linkText"],
+        ["css=.loginForm_showPassword__zWbYI", "css:finder"],
+        ["xpath=//a[contains(text(),'Hide')]", "xpath:link"],
+        ["xpath=//a[@type='button']", "xpath:attributes"],
+        ["xpath=//section[@id='app-content-wrapper']/div[4]/section/section/div/aside/div[2]/div/form/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/login?showPassword=false')]", "xpath:href"],
+        ["xpath=//form/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Hide')]", "xpath:innerText"]
+      ],
+      "value": "Hide"
+    }, {
+      "id": "e88e73ee-2ab4-4bd1-8462-70c41349dff5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Close",
+      "targets": [
+        ["linkText=Close", "linkText"],
+        ["css=.sidebar_sidebarHeaderClose__BdCuZ", "css:finder"],
+        ["xpath=//section[@id='app-content-wrapper']/div[4]/section/section/div/aside/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[79]", "xpath:href"],
+        ["xpath=//aside/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Close')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "93793e38-ebb4-40dc-8809-7efd938d5f2f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "6da401f9-1223-454f-9705-ae8b8c3b0f3e",
+    "name": "Login_successful",
+    "commands": [{
+      "id": "0f2b8dae-f96d-442f-b61b-40933bcc23c0",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.konga.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2bca3eb8-c687-481f-a460-72b8b088e496",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1696x1026",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4b21da5b-8a1d-4c51-82f5-f5e49fbd9430",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.header_headerImage__KiBW1 .asset_imageCover__ttp_S",
+      "targets": [
+        ["css=.header_headerImage__KiBW1 .asset_imageCover__ttp_S", "css:finder"],
+        ["xpath=//img[@alt='Konga Jara!!!']", "xpath:img"],
+        ["xpath=//main[@id='mainContent']/section/section/div/div/div/div/section/a/div/span/img", "xpath:idRelative"],
+        ["xpath=//section/a/div/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7be5ebc2-6ed0-42ec-8197-275f16f5770d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.header_headerImage__KiBW1 .asset_imageCover__ttp_S",
+      "targets": [
+        ["css=.header_headerImage__KiBW1 .asset_imageCover__ttp_S", "css:finder"],
+        ["xpath=//img[@alt='Konga Jara!!!']", "xpath:img"],
+        ["xpath=//main[@id='mainContent']/section/section/div/div/div/div/section/a/div/span/img", "xpath:idRelative"],
+        ["xpath=//section/a/div/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d37fa3f6-38d3-459a-b330-6d1c2937704a",
+      "comment": "",
+      "command": "//verifyText",
+      "target": "css=body",
+      "targets": [],
+      "value": "Store Locator\\nSell on Konga\\nHelp\\nMy Account\\nMy Cart\\n0\\nAll Categories\\nComputers and Accessories\\nPhones and Tablets\\nElectronics\\nKonga Fashion\\nHome and Kitchen\\nBaby, Kids and Toys\\nBeauty, Health & Personal Care\\nFeedback\\nToday's Deals\\nSee All Items\\nNike Nigeria Latest 2024 Designe...\\n₦15,000\\n32\" Led Hd Tv - 2hdmi - 2usb - 1...\\n₦109,080\\nHP Laptop 15-fd0569nia, 15.6\", I...\\n₦497,700\\n₦629,999\\n- 21%\\nYou save ₦132,299\\nNigeria 1994 Retro Away Jersey\\n₦24,000\\nNike Nigeria Designer Football J...\\n₦15,000\\nNike Nigeria Super Falcons 2025/...\\n₦15,000\\nSponsored Products\\nWired Headset - H540\\n₦63,000\\nCuddle Luxe Grey L-shape\\n₦650,000\\n₦800,000\\n- 19%\\nYou save ₦150,000\\nAtmel Avr 8051 Usb Isp Prog...\\n₦15,500\\nCheslo Cuddle Luxe Grey L-s...\\n₦599,999\\n₦760,000\\n- 21%\\nYou save ₦160,001\\nRechargeable Electric Sciss...\\n₦43,999\\nSame Day Delivery (KongaNow)\\nSee All Items\\nT & C Apply\\nStarlink Standard Kit (Gen ...\\n₦590,000\\n₦700,000\\n- 16%\\nYou save ₦110,000\\n(38 Reviews)\\nHuawei Access point AP361\\n₦61,336\\n(3 Reviews)\\nStarlink Gen 3 + Huawei Acc...\\n₦651,336\\nStarlink Standard Actuated ...\\n₦110,000\\n₦129,100\\n- 15%\\nYou save ₦19,100\\n(8 Reviews)\\nNexus Nx-sf4400b Nexus 16\" ...\\n₦29,421\\n₦35,000\\n- 16%\\nYou save ₦5,579\\n(10 Reviews)\\nNexus 100 Litres Chest Free...\\n₦231,973\\n₦270,000\\n- 14%\\nYou save ₦38,027\\n(1 Review)\\nTecno Pop 10 - KM4 -6.67\" -...\\n₦132,978\\nNexus 18\" Standing Fan |NX-...\\n₦33,947\\n₦40,000\\n- 15%\\nYou save ₦6,053\\n(61 Reviews)\\nComputing\\nPhones & Tablets\\nTV & Audio Systems\\nHome & Kitchen\\nGroceries\\nOffice Furniture & Equipments\\nBeauty Hub\\nGaming\\nFootwear Deals\\nGenerators & Inverters\\nFashion\\nBaby, Kids & Toys\\nOfficial Store\\nRecommended for you\\nSee All Items\\nMonopod Tripod U Clip Mount Phon...\\n₦4,400\\n₦7,500\\n- 41%\\nYou save ₦3,100\\nTripod Mount Phone & Tablet Hold...\\n₦5,000\\nPhone Tripod Holder Clip Mount\\n₦2,000\\n₦2,100\\n- 4%\\nYou save ₦100\\n1 Review\\nTablet Holder\\n₦13,500\\n₦27,000\\n- 50%\\nYou save ₦13,500\\nWall-Mounted Phone Holder – 12 P...\\n₦58,076\\n₦58,663\\n- 1%\\nYou save ₦587\\n360 Rotating Aluminum Alloy Phon...\\n₦5,800\\n₦10,500\\n- 44%\\nYou save ₦4,700\\nInspired By Your Cart\\nMonopod Tripod U Clip Mount...\\n₦4,400\\n₦7,500\\n- 41%\\nYou save ₦3,100\\nMonopod Tripod U Clip Mount...\\n₦1,600\\nTripod Mount Phone & Tablet...\\n₦5,000\\nSamsung Q-series Soundbar H...\\n₦511,700\\nSamsung Refrigerators - 4- ...\\n₦1,552,500\\n₦1,881,250\\n- 17%\\nYou save ₦328,750\\nSamsung Ac / Split / 1.5 Hp...\\n₦675,800\\n₦695,800\\n- 2%\\nYou save ₦20,000\\nSamsung Galaxy S21 Ultra Sm...\\n₦19,458\\nYour Browsing History\\nPorodo Lifestyle Dual Spin ...\\n₦62,000\\n₦63,000\\n- 1%\\nYou save ₦1,000\\nSamsung Galaxy A07 - 6.7\" -...\\n₦146,310\\nBlack & Decker Black+decker...\\n₦175,780\\n₦216,210\\n- 18%\\nYou save ₦40,430\\nAEON Aeon  Ref/sd/91l/ars10...\\n₦175,960\\n₦200,000\\n- 12%\\nYou save ₦24,040\\nStarlink Standard Kit (Gen ...\\n₦590,000\\n₦700,000\\n- 15%\\nYou save ₦110,000\\n(38 Reviews)\\nFriesland Campina Peak Full...\\n₦9,870\\n₦10,200\\n- 3%\\nYou save ₦330\\nFriesland Campina Peak Full...\\n₦1,840\\n₦2,100\\n- 12%\\nYou save ₦260\\nSamsung Ar12crhg 1.5 Hp Sam...\\n₦468,700\\n₦488,700\\n- 4%\\nYou save ₦20,000\\nAEON Aeon Chest Fz/sd/252l/...\\n₦342,246\\n₦355,000\\n- 3%\\nYou save ₦12,754\\nSamsung Q-series Soundbar H...\\n₦511,700\\nHOME FURNISHINGS\\nGet Up To 70% Off\\nSHOP NOW\\nFITNESS TOOLS & EQUIPMENT\\nGet Fitness Equipment At Amazing Discounts!\\nSHOP NOW\\nKIDS WEARS & ACCESSORIES\\nGet All Kiddies Products At Huge Discounts!\\nSHOP NOW\\nTOP DEALS ON TELEVISIONS\\nGet the TV You Want With Bargain Deals!\\nSHOP NOW\\nKonga — Nigeria’s Trusted Platform for Smart Shopping\\nWelcome to Konga, Nigeria’s leading online shopping destination where convenience meets trust. From electronics and mobile phones to home appliances, groceries, fashion, and lifestyle essentials, Konga offers millions of Nigerians a smarter way to shop, save, and enjoy fast nationwide delivery. Our mission is simple: to make shopping easier, faster, and more rewarding. Whether you’re restocking your kitchen, upgrading your gadgets, or exploring fashion trends, Konga guarantees genuine products, unbeatable prices, and reliable after-sales support. Powered by KongaPay, our secure payment solution, shoppers enjoy seamless checkout, instant cashback, and discounts on bill payments, airtime, data, electricity, and cable TV subscriptions. We also bring you seasonal campaigns like Konga Yakata (Black Friday), Freedom Sale, and Back-to-School Promos, giving you the chance to save big on trusted brands like LG, HP, Zinox, Apple, La Roche-Posay, Starlink, Samsung, Tecno, Xiaomi, TGi, ZTE, Garnier, Infinix, Huawei, EcoFlow, Haier Thermocool, Unilever, iTec, and Nivea. At Konga, we don’t just sell — we deliver smiles, speed, and satisfaction to every doorstep. With KongaNow same-day delivery and nationwide logistics coverage, your orders are safe, fast, and always right on time. Enjoy exclusive in-app deals when you shop via the Konga App. Download the app on Playstore or Appstore today and experience shopping made simple, secure, and smart.\\nAllow Us Serve You Better\\nWe collect and store information on your device when you use this website including setting cookies. Some are essential, while others are used to enhance your experience, and to operate and improve the website. You can withdraw your consent at any time for non-strictly necessary cookies. Please choose the accept all button if you consent for us to use these non-strictly necessary cookies and the personal information they collect for the purposes described in our\\nCookie Notice\\nI Accept\\nOnly Necessary\\nEMAIL SUPPORT\\nhelp@konga.com\\nPHONE SUPPORT\\n07080635700, 02018883435\\nWHATSAPP\\n0907 0038 400, 0809 460 5555\\nGET LATEST DEALS\\nOur best promotions sent to your inbox.\\nSubscribe\\nABOUT KONGA\\nContact Us\\nAbout Us\\nCareers\\nOur Blog\\nForum\\nTerms & Conditions\\nPAYMENT\\nKongaPay\\nWallet\\nVerve\\nMastercard\\nVisa\\nBUYING ON KONGA\\nBuyer Safety Centre\\nFAQs\\nDelivery\\nKonga Return Policy\\nBulk Purchase\\nMORE INFO\\nSite Map\\nTrack My Order\\nPrivacy Policy\\nAuthentic Items Policy\\nMAKE MONEY ON KONGA\\nBecome a Konga Affiliate\\nDownload on\\nApp Store\\nDownload on\\nGoogle Play\\nCONNECT WITH US\\nCopyright © 2026 Konga.com. All rights reserved\\nHi there! Thanks for stopping by. How can I help you today?"
+    }, {
+      "id": "4b15fd20-35f7-4ba6-96b1-aff04cf4a66b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f90bd46a-c63f-4088-bdcc-608dae823a1c",
+    "name": "SearchBar_WorksAfterLogin",
+    "commands": [{
+      "id": "c5a103d5-4ae5-4dd1-948b-d77641ae9c73",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.konga.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "32776262-c807-45fc-b3ab-91330c436971",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1696x1026",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fe012aa2-8dc3-40a5-9614-a7a5fd6a446a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DesktopNavigation_searchBox__dueaD #jsSearchInput",
+      "targets": [
+        ["css=.DesktopNavigation_searchBox__dueaD #jsSearchInput", "css:finder"],
+        ["xpath=(//input[@id='jsSearchInput'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='nav-bar-fix']/div/div/div[2]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "15cab063-0325-40fb-b16b-d86557d824c8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DesktopNavigation_searchBox__dueaD #jsSearchInput",
+      "targets": [
+        ["css=.DesktopNavigation_searchBox__dueaD #jsSearchInput", "css:finder"],
+        ["xpath=(//input[@id='jsSearchInput'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='nav-bar-fix']/div/div/div[2]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbca0c3b-b300-45f3-9ab3-096b85cce62b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "dabe5dfc-6242-407e-b5cc-821bf320bbcc",
+    "name": "AddToCart_ProductFromHomepage_Works",
+    "commands": [{
+      "id": "e8a79889-5ff1-416a-add5-478cb13353d3",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.konga.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "67ba54e7-60ef-4bc6-916f-5d5d020cf916",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1696x1026",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fd64cc76-caca-44ff-91ba-413a50a3b840",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Computers and Accessories",
+      "targets": [
+        ["linkText=Computers and Accessories", "linkText"],
+        ["css=.DesktopNavigation_navItem__TBbw6:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Computers and Accessories')]", "xpath:link"],
+        ["xpath=//div[@id='nav-bar-fix']/div[2]/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/category/computers-accessories-5227')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1516a51-4e28-4fe3-b375-d915a2dc5af1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Computers and Accessories",
+      "targets": [
+        ["linkText=Computers and Accessories", "linkText"],
+        ["css=.DesktopNavigation_navItem__TBbw6:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Computers and Accessories')]", "xpath:link"],
+        ["xpath=//div[@id='nav-bar-fix']/div[2]/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/category/computers-accessories-5227')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57a32aeb-b07e-468f-8f5e-786aab60d0c6",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Computers and Accessories",
+      "targets": [
+        ["linkText=Computers and Accessories", "linkText"],
+        ["css=.DesktopNavigation_navItem__TBbw6:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Computers and Accessories')]", "xpath:link"],
+        ["xpath=//div[@id='nav-bar-fix']/div[2]/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/category/computers-accessories-5227')])[4]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "feae3608-c2ba-4281-9c2e-1a3b47c46706",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ListingComponent_salesAIAdsCarouselItem__Tjbn0:nth-child(1) .RecommendationsCard_recCardImage__5CL2P .asset_imageCover__ttp_S",
+      "targets": [
+        ["css=.ListingComponent_salesAIAdsCarouselItem__Tjbn0:nth-child(1) .RecommendationsCard_recCardImage__5CL2P .asset_imageCover__ttp_S", "css:finder"],
+        ["xpath=//img[@alt='Wired Headset - H540']", "xpath:img"],
+        ["xpath=//main[@id='mainContent']/section/section/section/section/section/section/div/div/div/div/div/a/div/div/span/img", "xpath:idRelative"],
+        ["xpath=//div/div/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8c1609e-5e1b-4379-a283-d3f6ec8775af",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ListingComponent_salesAIAdsCarouselItem__Tjbn0:nth-child(1) .RecommendationsCard_recCardImage__5CL2P .asset_imageCover__ttp_S",
+      "targets": [
+        ["css=.ListingComponent_salesAIAdsCarouselItem__Tjbn0:nth-child(1) .RecommendationsCard_recCardImage__5CL2P .asset_imageCover__ttp_S", "css:finder"],
+        ["xpath=//img[@alt='Wired Headset - H540']", "xpath:img"],
+        ["xpath=//main[@id='mainContent']/section/section/section/section/section/section/div/div/div/div/div/a/div/div/span/img", "xpath:idRelative"],
+        ["xpath=//div/div/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db61720b-aef1-45d5-813f-aa2e7db66487",
+      "comment": "",
+      "command": "click",
+      "target": "css=.productDetail_productCtaSticky__71e8u > .button_button__cpnXl",
+      "targets": [
+        ["css=.productDetail_productCtaSticky__71e8u > .button_button__cpnXl", "css:finder"],
+        ["xpath=(//button[@type='submit'])[9]", "xpath:attributes"],
+        ["xpath=//main[@id='mainContent']/div[4]/div[3]/div/div/div/div[2]/div[2]/form/div[5]/div/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2908daa1-d83d-4d95-96e8-fdbe421f6424",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=My Account",
+      "targets": [
+        ["linkText=My Account", "linkText"],
+        ["css=.DesktopNavigation_dropdown__ISRZJ:nth-child(1) > .DesktopNavigation_searchBandIconLink__Nreez", "css:finder"],
+        ["xpath=//div[@id='nav-bar-fix']/div/div/div[4]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/account/profile')])[2]", "xpath:href"],
+        ["xpath=//div[4]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c41be819-d2ae-482c-86dc-55c05c588129",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=My Account",
+      "targets": [
+        ["linkText=My Account", "linkText"],
+        ["css=.DesktopNavigation_dropdown__ISRZJ:nth-child(1) > .DesktopNavigation_searchBandIconLink__Nreez", "css:finder"],
+        ["xpath=//div[@id='nav-bar-fix']/div/div/div[4]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/account/profile')])[2]", "xpath:href"],
+        ["xpath=//div[4]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed191eab-4717-40d4-8a07-322d5061d211",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.DesktopNavigation_searchBandIconLink__Nreez:nth-child(1) > span",
+      "targets": [
+        ["css=.DesktopNavigation_searchBandIconLink__Nreez:nth-child(1) > span", "css:finder"],
+        ["xpath=//div[@id='nav-bar-fix']/div/div/div[4]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'My Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "41637395-21c7-4927-ae3d-1bde2d7ee24f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.DesktopNavigation_searchBandIconLink__Nreez:nth-child(1) > span",
+      "targets": [
+        ["css=.DesktopNavigation_searchBandIconLink__Nreez:nth-child(1) > span", "css:finder"],
+        ["xpath=//div[@id='nav-bar-fix']/div/div/div[4]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'My Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "24122f4d-fdf5-4a8d-8f6e-8d84e3b748aa",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.DesktopNavigation_cartLink__yKozc > span:nth-child(2)",
+      "targets": [
+        ["css=.DesktopNavigation_cartLink__yKozc > span:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='nav-bar-fix']/div/div/a[3]/span", "xpath:idRelative"],
+        ["xpath=//a[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'My Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1aed81f6-6ead-444b-a930-c559fbd6ab5d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.DesktopNavigation_cartLink__yKozc > span:nth-child(2)",
+      "targets": [
+        ["css=.DesktopNavigation_cartLink__yKozc > span:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='nav-bar-fix']/div/div/a[3]/span", "xpath:idRelative"],
+        ["xpath=//a[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'My Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "26771be0-cab6-494e-b2c4-3534c2f5debe",
+      "comment": "",
+      "command": "//verifyText",
+      "target": "css=body",
+      "targets": [],
+      "value": "Store Locator\\nSell on Konga\\nHelp\\nMy Account\\nMy Cart\\n3\\nAll Categories\\nComputers and Accessories\\nPhones and Tablets\\nElectronics\\nKonga Fashion\\nHome and Kitchen\\nBaby, Kids and Toys\\nBeauty, Health & Personal Care\\nHomeShopping Cart\\nShopping Cart\\nContinue Shopping\\nItems Details\\nQuantityItem Price\\nAction\\nWired Headset - H540\\nSold by Alphacom Interbiz\\n-\\n3\\n+\\n₦189,000\\n₦63,000 x 3 items\\nRemove item\\nSave for Later\\nOrder Summary\\n3 Items\\nDelivery Charges:\\nAdd your Delivery address at checkout to see delivery charges\\nSubtotal:\\n₦189,000\\nTotal\\n₦189,000\\nExcluding delivery charges\\nContinue to Checkout\\nWe accept:\\nTransactions are 100% Safe and Secure\\nEMAIL SUPPORT\\nhelp@konga.com\\nPHONE SUPPORT\\n07080635700, 02018883435\\nWHATSAPP\\n0907 0038 400, 0809 460 5555\\nGET LATEST DEALS\\nOur best promotions sent to your inbox.\\nSubscribe\\nABOUT KONGA\\nContact Us\\nAbout Us\\nCareers\\nOur Blog\\nForum\\nTerms & Conditions\\nPAYMENT\\nKongaPay\\nWallet\\nVerve\\nMastercard\\nVisa\\nBUYING ON KONGA\\nBuyer Safety Centre\\nFAQs\\nDelivery\\nKonga Return Policy\\nBulk Purchase\\nMORE INFO\\nSite Map\\nTrack My Order\\nPrivacy Policy\\nAuthentic Items Policy\\nMAKE MONEY ON KONGA\\nBecome a Konga Affiliate\\nDownload on\\nApp Store\\nDownload on\\nGoogle Play\\nCONNECT WITH US\\nCopyright © 2026 Konga.com. All rights reserved\\nShopping Cart | Konga Online Shopping\\nHi there! Thanks for stopping by. How can I help you today?"
+    }, {
+      "id": "192f98a7-d048-47d7-8412-4300b186d2e4",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "cc8a0833-2a81-460a-8835-fe46a35fde71",
+    "name": "ViewCart_ItemsDisplayedCorrectly",
+    "commands": [{
+      "id": "708dfea1-4a03-4910-b2d6-ef810a862362",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.konga.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2f32e078-1114-4e94-8df6-5e4283b18e22",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1696x1026",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "15e1a98c-6f82-466e-9421-e568d57a6a76",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DesktopNavigation_cartLink__yKozc",
+      "targets": [
+        ["css=.DesktopNavigation_cartLink__yKozc", "css:finder"],
+        ["xpath=//div[@id='nav-bar-fix']/div/div/a[3]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/cart/overview')])[2]", "xpath:href"],
+        ["xpath=//div[3]/nav/div[3]/div/div/a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0945209-2f9b-4907-bb7e-df1591fdb322",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.DesktopNavigation_cartLink__yKozc path",
+      "targets": [
+        ["css=.DesktopNavigation_cartLink__yKozc path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "9659dce1-8d8c-4063-b928-2e133da2387f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2757ec8f-684b-4fc6-a7ef-1bfdc6e15bbb",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.DesktopNavigation_cartLink__yKozc",
+      "targets": [
+        ["css=.DesktopNavigation_cartLink__yKozc", "css:finder"],
+        ["xpath=//div[@id='nav-bar-fix']/div/div/a[3]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/cart/overview')])[5]", "xpath:href"],
+        ["xpath=//div[2]/nav/div[3]/div/div/a[3]", "xpath:position"]
+      ],
+      "value": "My Cart\\n5"
+    }, {
+      "id": "6b584263-fb7b-4f21-8d53-c6fdebc13cef",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "901ce7e7-4870-41ce-b401-d918c589396f",
+    "name": "Checkout_StartsFromCart",
+    "commands": [{
+      "id": "bc4f4162-b705-402d-a21e-1957f8eb10da",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.konga.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6e5ff448-05d7-4010-ab52-52b328df08b2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1696x1026",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "22b3bc7f-929e-499c-954b-4baf9d18fea4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DesktopNavigation_cartLink__yKozc > span:nth-child(2)",
+      "targets": [
+        ["css=.DesktopNavigation_cartLink__yKozc > span:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='nav-bar-fix']/div/div/a[3]/span", "xpath:idRelative"],
+        ["xpath=//div/div/a[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'My Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c040e00-cce4-445c-83ad-208f1ed691e7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.DesktopNavigation_cartLink__yKozc > span:nth-child(2)",
+      "targets": [
+        ["css=.DesktopNavigation_cartLink__yKozc > span:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='nav-bar-fix']/div/div/a[3]/span", "xpath:idRelative"],
+        ["xpath=//div/div/a[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'My Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "da4ba0fb-3139-4b9a-bbe5-51a3875f60a2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.DesktopNavigation_cartLink__yKozc > span:nth-child(2)",
+      "targets": [
+        ["css=.DesktopNavigation_cartLink__yKozc > span:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='nav-bar-fix']/div/div/a[3]/span", "xpath:idRelative"],
+        ["xpath=//div/div/a[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'My Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "02ac6721-519d-425c-bd04-cdecf1ea0ee6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.DesktopNavigation_cartLink__yKozc path",
+      "targets": [
+        ["css=.DesktopNavigation_cartLink__yKozc path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff9afb68-21ce-4d1b-8774-49e056ccb72d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.DesktopNavigation_cartLink__yKozc path",
+      "targets": [
+        ["css=.DesktopNavigation_cartLink__yKozc path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e68628a7-a565-496c-88bc-9411c1d8b43f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Continue to Checkout",
+      "targets": [
+        ["linkText=Continue to Checkout", "linkText"],
+        ["css=.button_success__sLUz_:nth-child(1) > .button_button__cpnXl", "css:finder"],
+        ["xpath=(//a[contains(text(),'Continue to Checkout')])[2]", "xpath:link"],
+        ["xpath=//main[@id='mainContent']/div/div[2]/div[4]/div/div[6]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/checkout/complete-order')])[2]", "xpath:href"],
+        ["xpath=//div[6]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dabb6965-6a18-4930-bb3d-d20cc857103f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": "Checkout\\nTo complete your order delivery, you'll receive a One-Time Password (OTP) on your phone. Be ready to use it and receive your goodies! 📦✨\\n1. CHOOSE DELIVERY OPTION\\nDeliver to me\\nHi Emmanuella, Click on Add Address to specify a delivery address.\\nAdd Delivery Address\\nYour item should be delivered to you in about 5 working days within Lagos & Abuja, and 7 to 14 days outside Lagos & Abuja.\\nCheck this box if you have any instruction regarding this order\\nPickup from a Store\\nSelect a pickup location in your area from our 25 locations nationwide.\\nSelect Pickup Location\\nDelivery Options:\\nKongaNow - (1 - 6 hours Estimated delivery time)\\nSame day delivery available on select products in Lagos and Abuja.\\n₦0\\nStandard Delivery\\n(3 - 5 Business days Estimated)\\n₦0\\n2. PAYMENT OPTIONS\\nORDER DETAILS\\nModify Cart\\nWired Headset - H540\\nSold by Alphacom Interbiz\\n₦189,000\\nQuantity: 3\\nWindows 11 Pro Multilingual Lifetime 1 Use...\\nSold by Michael collections\\n₦19,998\\nQuantity: 2\\n+ delivery fee: ₦0\\nSub total:\\n₦208,998\\nTotal\\n₦208,998\\nEnjoy same-day delivery on orders placed before 3PM in Lagos and Abuja.T&C's apply\\nComplete Order | Konga Online Shopping\\nHi there! Thanks for stopping by. How can I help you today?"
+    }, {
+      "id": "23cf8e83-3598-41d7-ad72-6c0f26517a22",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "338577cd-7558-46bb-bff0-d2dcb83c98b8",
+    "name": "Logout-Successful_RedirectsToLogin",
+    "commands": [{
+      "id": "d1cc5e9c-6739-4334-8219-416443534aac",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.konga.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "36576dcf-916b-409a-8b95-633ee2a7628d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1696x1026",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "248c0dea-4d33-48fb-a596-eef792039404",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=My Saved Items",
+      "targets": [
+        ["linkText=My Saved Items", "linkText"],
+        ["css=.DesktopNavigation_dropdown__ISRZJ:nth-child(1) .dropDown_dropdownItem__SG_pE:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'My Saved Items')]", "xpath:link"],
+        ["xpath=//div[@id='nav-bar-fix']/div/div/div[4]/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/account/favourites')])[2]", "xpath:href"],
+        ["xpath=//div[4]/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b9dceaa-f147-4d36-b924-b7a3f746acde",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=My Saved Items",
+      "targets": [
+        ["linkText=My Saved Items", "linkText"],
+        ["css=.DesktopNavigation_dropdown__ISRZJ:nth-child(1) .dropDown_dropdownItem__SG_pE:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'My Saved Items')]", "xpath:link"],
+        ["xpath=//div[@id='nav-bar-fix']/div/div/div[4]/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/account/favourites')])[2]", "xpath:href"],
+        ["xpath=//div[4]/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a49cfacf-76ed-4891-9775-4cfa0ad96715",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=.dropDown_logoutItem__5pffl > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//div[@id='nav-bar-fix']/div/div/div[4]/div/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/?logout=true')])[2]", "xpath:href"],
+        ["xpath=//div[4]/div/ul/li[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b9c0f42-6450-4132-a839-5c03c42e4f55",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=.dropDown_logoutItem__5pffl > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//div[@id='nav-bar-fix']/div/div/div[4]/div/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/?logout=true')])[2]", "xpath:href"],
+        ["xpath=//div[4]/div/ul/li[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6d45e41-1af1-4691-969c-a5e8dd47f886",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login / Signup",
+      "targets": [
+        ["linkText=Login / Signup", "linkText"],
+        ["css=.DesktopNavigation_authLink__Zpjyj > .DesktopNavigation_searchBandIconLink__Nreez", "css:finder"],
+        ["xpath=//a[contains(text(),'Login / Signup')]", "xpath:link"],
+        ["xpath=//div[@id='nav-bar-fix']/div/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/login?return_url=/')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login / Signup')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ca2a566-0180-49fc-a995-41e44d91fa76",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Login / Signup",
+      "targets": [
+        ["linkText=Login / Signup", "linkText"],
+        ["css=.DesktopNavigation_authLink__Zpjyj > .DesktopNavigation_searchBandIconLink__Nreez", "css:finder"],
+        ["xpath=//a[contains(text(),'Login / Signup')]", "xpath:link"],
+        ["xpath=//div[@id='nav-bar-fix']/div/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/login?return_url=/')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login / Signup')]", "xpath:innerText"]
+      ],
+      "value": "Login / Signup"
+    }, {
+      "id": "518e130d-38d6-4e6f-98a6-3f4e19a72ce9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Close",
+      "targets": [
+        ["linkText=Close", "linkText"],
+        ["css=.sidebar_sidebarHeaderClose__BdCuZ", "css:finder"],
+        ["xpath=//section[@id='app-content-wrapper']/div[4]/section/section/div/aside/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[79]", "xpath:href"],
+        ["xpath=//aside/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Close')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf94abd1-d532-45ef-88b1-0c55962ef19d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4da5b348-7858-434a-a90b-b926d55d24c3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5a00e4d9-60a6-4d3c-82d4-f364eda1e963"]
+  }, {
+    "id": "4f28fc9a-1c07-43e9-b451-20c103507039",
+    "name": "Konga Test",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6024c950-a555-4ad9-8c8c-a3b0324e700a", "2ef18fd3-6af7-4162-bd7b-6d3491d30c62", "4e86635e-79d2-440d-b8dc-6619db1463c4", "6da401f9-1223-454f-9705-ae8b8c3b0f3e", "3d93b200-1713-40c7-8345-2f101e03ac3b", "76d2ba09-960a-4ff4-be56-e85dcbef0118", "dabe5dfc-6242-407e-b5cc-821bf320bbcc", "f90bd46a-c63f-4088-bdcc-608dae823a1c", "cc8a0833-2a81-460a-8835-fe46a35fde71", "901ce7e7-4870-41ce-b401-d918c589396f", "338577cd-7558-46bb-bff0-d2dcb83c98b8"]
+  }],
+  "urls": ["https://www.konga.com/"],
+  "plugins": []
+}
